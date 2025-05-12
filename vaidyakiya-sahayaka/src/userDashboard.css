@@ -1,0 +1,103 @@
+/* Container */
+.dashboard-container {
+    font-family: Arial, sans-serif;
+    background-color: #f9f5ff; /* soft white with purple tint */
+    min-height: 100vh;
+    color: #4b0082; /* deep purple text */
+  }
+  
+  /* Header */
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6a1b9a; /* purple */
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .dashboard-links {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start; /* align left inside the header */
+  }
+  
+  
+  /* Title centered */
+  .dashboard-header h1 {
+    margin: 0 auto;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .dashboard-main {
+    padding: 40px 20px;
+    text-align: center;
+    text-decoration:bold;
+  }
+  
+  .link-btn {
+    background: none;
+    border: none;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 15px;
+    padding: 0;
+  }
+  
+  .link-btn:hover {
+    color: #ddd;
+  }
+  
+  
+  /* Image Section */
+  .image-links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  /* Image Container */
+  .nav-image-container {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    cursor: pointer;
+    border: 3px solid #6a0dad;
+    border-radius: 15px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .nav-image-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 12px rgba(106, 13, 173, 0.6);
+  }
+  
+  /* Images */
+  .nav-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+  
+  /* Text below images */
+  .image-text {
+    position: absolute;
+    bottom: -30px; /* Adjust this to place the text below the image */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    color: #6a0dad;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+  }
+  

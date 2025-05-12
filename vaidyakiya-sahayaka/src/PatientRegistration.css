@@ -1,0 +1,64 @@
+.container {
+    font-family: Arial, sans-serif;
+    background-color: #f3e8ff;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.form-box {
+    background-color: white;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(128, 0, 128, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #800080;
+    margin-bottom: 20px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.submit-btn {
+    background-color: #800080;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background-color: #6a006a;
+}
+
+.hospital-results {
+    margin-top: 25px;
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 5px solid #800080;
+}
+
+.hospital-results h3 {
+    color: #800080;
+    margin-bottom: 10px;
+}
+
+.hospital-results li {
+    margin-bottom: 8px;
+}
